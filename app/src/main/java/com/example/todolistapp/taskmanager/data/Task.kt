@@ -1,0 +1,18 @@
+package com.example.todolistapp.taskmanager.data
+
+data class Task(
+    val id: Int,
+    val title: String,
+    val body: String? = null,
+    val startTime: String,
+    val endTime: String
+)
+val taskList = listOf(
+    Task(
+        id = 1,
+        title = "Do Laundry",
+        body = "Wash You Cloth",
+        startTime = "10.00",
+        endTime = "11.00"
+    ),
+)
